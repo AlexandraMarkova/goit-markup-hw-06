@@ -601,7 +601,7 @@ body {
 }
 
 .button-footer {
-  display: flex;
+  position: relative;
   width: 200px;
   height: 50px;
   padding-left: 29px;
@@ -610,7 +610,7 @@ body {
 }
 
 .footer-icon {
-  /* display: flex; */
+  position: absolute;
   fill: var(--white);
   margin-left: 10px;
   width: 24px;
