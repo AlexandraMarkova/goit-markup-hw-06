@@ -813,10 +813,11 @@ body {
   position: absolute;
   content: '';
   display: inline-block;
-  width: 17px;
-  height: 17px;
-  top: 6px;
-  left: 6px;
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   fill: var(--black-one);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
